@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        // Latest JS features for modern Chrome
+        "target": "ESNext",
+        "lib": ["ESNext", "DOM", "DOM.Iterable"],
+
+        // Module settings
+        "module": "ESNext",
+        "moduleResolution": "bundler",
+        "verbatimModuleSyntax": true,
+        "isolatedModules": true,
+        "allowImportingTsExtensions": false,
+        "resolveJsonModule": true,
+
+        // Emit settings
+        "noEmit": true,
+        "jsx": "react-jsx",
+
+        // Strictest type checking
+        "strict": true,
+        "noUncheckedIndexedAccess": true,
+        "noImplicitOverride": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true
+    },
+    "include": ["src"]
+}
